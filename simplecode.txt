@@ -1,0 +1,6 @@
+new = (struct node*)malloc(sizeof(structnode));
+scanf("%d",&value);
+new --> data = value ;
+tail --> next = new;
+new --> next = head;
+tail = new ;
