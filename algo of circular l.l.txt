@@ -1,0 +1,20 @@
+efine a Node class which represents a node in the list. It has two properties data and next which will point to the next node.
+
+
+Define another class for creating the circular linked list and it has two nodes: head and tail. It has two methods: addAtEnd() and display() .
+
+addAtEnd() will add the node to the end of the list:
+
+It first checks whether the head is null (empty list), then it will insert the node as the head.
+
+Both head and tail will point to the newly added node.
+
+If the list is not empty, then the newly added node will become the new tail, and previous tail will point to new node as its next node. The new tail will point to the head.
+
+display() will show all the nodes present in the list.
+
+Define a new node 'current' that will point to the head.
+
+Print current.data till current will points to head again.
+
+Current will point to the next node in the list in each iteration
